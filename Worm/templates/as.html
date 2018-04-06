@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <meta charset="utf-8">
+        <title>кау3цка</title>
+    </head></p>
+    <body>
+        <div style='width: 25%' class="container">
+        <form style="color: white" method="post" class="form-signin" role="form">
+        {% csrf_token %}
+            <h2 class="form-signin-heading" style="color:white">Please sign in</h2>
+            <label name='login' for='login'>Login</label>
+            <input type="text" id='login' name='login'  class="form-control" placeholder="Entre votre login" required autofocus>
+            <label for='password' name='password'>Password </label>
+            <input type="text" name='password' id='password' class="form-control" placeholder="Password" required>
+            <label style='padding-left: 20px' class="checkbox">
+            <input type="checkbox" value="remember-me"> Remember me
+            </label>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+    </div>
+</body>
