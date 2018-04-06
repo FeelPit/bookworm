@@ -66,7 +66,7 @@ def take_prices_for_chitay_gorod(book):
 					price_true += p
 			return(price_true)
 
-'''@lru_cache(maxsize=100)
+@lru_cache(maxsize=100)
 def take_prices_for_labirint(book):
 		cnx = mysql.connector.connect(user='root', password='root',
 	                            host='127.0.0.1',
@@ -113,7 +113,7 @@ def take_prices_for_labirint(book):
 				return(price_new.get_text())
 			else:
 				return(price.get_text())
-'''
+
 def comprasion(fir, sec):
 		if int(fir) > int(sec):
 			return(sec)
