@@ -124,4 +124,6 @@ def comprasion(fir, sec):
 #v = take_prices_for_chitay_gorod('Стив Джобс')
 v1 = take_prices_for_labirint('Война и мир')
 
-print("Hello")
+a = 2
+b = 2
+print(a+b)
