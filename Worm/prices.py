@@ -123,3 +123,5 @@ def comprasion(fir, sec):
 			return(fir)	
 #v = take_prices_for_chitay_gorod('Стив Джобс')
 v1 = take_prices_for_labirint('Война и мир')
+
+#YOOOOOOOOOOOOOOOOOO
